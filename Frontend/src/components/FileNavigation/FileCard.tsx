@@ -1,5 +1,3 @@
-import React from "react";
-
 import { CgCPlusPlus } from "react-icons/cg";
 import { RxCross2 } from "react-icons/rx";
 import { IoLogoPython } from "react-icons/io";
@@ -31,7 +29,7 @@ const FileCard: React.FC<IPROPS> = ({ fileInfo, removeFileHandler }) => {
     languageLogo = <BiCodeAlt className="text-[1.25rem] text-blue-600 " />;
   }
 
-  const removeHandler = (evet: React.MouseEvent<HTMLButtonElement>) => {
+  const removeHandler = ( ) => {
     removeFileHandler(fileInfo.id);
     console.log("Remove", fileInfo.id);
   };

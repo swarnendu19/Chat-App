@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import FileCard from "./FileCard";
 import "./FileNavigation.css";
 import { GoPlus } from "react-icons/go";
