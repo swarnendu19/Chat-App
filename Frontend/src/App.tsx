@@ -4,7 +4,7 @@ import FileNavigation from './components/FileNavigation/FileNavigation'
 function App() {
  
   return (
-     <div>
+     <div className="App">
       <FileNavigation/>
      </div>
   )
