@@ -1,3 +1,0 @@
-type SocketId = string
-
- 
